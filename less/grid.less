@@ -1,0 +1,75 @@
+//============my internal functions=============
+.stageColumns(@n,@m,@i:1,@j:0) when (@i <= @n){
+  @co: @i+@j;
+  .columns-@{n}-@{co}{
+    width: @m
+  }
+
+  .stageColumns(@n,@m,@i+1+@j,@j)
+}
+
+.buildSingleColumns(@n,@m: 100%, @i:1,@x:0) when (@i =< @n){
+
+  @g: @n - @x;
+
+  .columns-@{n}-@{g}{
+    width: @i * @m / @n
+  }
+
+  .buildSingleColumns(@n,@m,@i+1,@x+1);
+}
+//=========================================
+
+*,*:before,*:after {
+  padding: 0;
+  margin: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+  // internet ie8 fix
+  zoom: 1;
+}
+
+.rows{
+  display: block;
+  height: auto;
+  bottom: 0;
+  top: 0;
+  zoom: 1;
+
+  &:before,&:after{
+    .clearfix
+  }
+}
+
+
+.columns-last {
+    float: right;
+}
+
+[class*='columns-'] {
+  float: left;
+  /*our gutter approx 20px*/
+  padding: 1.6%;
+  min-height:1px;
+
+  &:last-of-type {
+    float: right;
+  }
+}
+
+/*=====================3-column-grids=============*/
+.buildSingleColumns(3);
+/*=====================3-column-grids=============*/
+
+/*=====================12-column-grids=============*/
+.buildSingleColumns(12);
+
+/*====================12-column-grids=============*/

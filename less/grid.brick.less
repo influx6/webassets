@@ -1,0 +1,57 @@
+@import "grid.less";
+
+/*base tablet to small desktop styles*/
+@media (min-width: 800px) and (max-width: 1100px) {
+  .columns-12-2,
+  .columns-12-7 {
+    width: 100%;
+  }
+
+  .columns-12-4,
+  .columns-12-8,
+  .columns-12-10,
+  .columns-12-12 {
+    width: 50%;
+  }
+}
+
+/*base tablet styles*/
+@media (max-width: 800px) {
+.columns-12-4,
+  .columns-12-6,
+  .columns-12-8,
+  .columns-12-10,
+  .columns-12-12 {
+    width: 50%;
+  }
+
+  .columns-12-1,
+  .columns-12-2,
+  .columns-12-3,
+  .columns-12-5,
+  .columns-12-7,
+  .columns-12-9,
+  .columns-12-11 {
+    width: 100%;
+  }
+}
+
+/*base mobile styles - everything 100%*/
+@media (max-width: 480px) {
+  .columns-12-1,
+  .columns-12-2,
+  .columns-12-3,
+  .columns-12-4,
+  .columns-12-5,
+  .columns-12-6,
+  .columns-12-7,
+  .columns-12-8,
+  .columns-12-9,
+  .columns-12-10,
+  .columns-12-11,
+  .columns-12-12 {
+    width: 100%;
+  }
+}
+
+/*====================12-column-grids=============*/

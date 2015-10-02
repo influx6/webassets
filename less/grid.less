@@ -1,3 +1,5 @@
+@import "normalize.less";
+
 //============my internal functions=============
 .stageColumns(@n,@m,@i:1,@j:0) when (@i <= @n){
   @co: @i+@j;
@@ -65,11 +67,34 @@
   }
 }
 
+/*=====================2-column-grids=============*/
+.buildSingleColumns(2);
+/*=====================2-column-grids=============*/
+
 /*=====================3-column-grids=============*/
 .buildSingleColumns(3);
 /*=====================3-column-grids=============*/
 
+/*=====================4-column-grids=============*/
+.buildSingleColumns(4);
+/*====================4-column-grids=============*/
+
+/*=====================6-column-grids=============*/
+.buildSingleColumns(6);
+/*====================6-column-grids=============*/
+
+/*=====================8-column-grids=============*/
+.buildSingleColumns(8);
+/*====================8-column-grids=============*/
+
 /*=====================12-column-grids=============*/
 .buildSingleColumns(12);
+/*====================12-column-grids=============*/
 
+/*=====================14-column-grids=============*/
+.buildSingleColumns(14);
+/*====================12-column-grids=============*/
+
+/*=====================16-column-grids=============*/
+.buildSingleColumns(16);
 /*====================12-column-grids=============*/

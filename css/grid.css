@@ -396,213 +396,213 @@ th {
   float: right;
 }
 /*=====================2-column-grids=============*/
-.columns-2-2 {
+.columns-2-1 {
   width: 50%;
 }
-.columns-2-1 {
+.columns-2-2 {
   width: 100%;
 }
 /*=====================2-column-grids=============*/
 /*=====================3-column-grids=============*/
-.columns-3-3 {
+.columns-3-1 {
   width: 33.33333333%;
 }
 .columns-3-2 {
   width: 66.66666667%;
 }
-.columns-3-1 {
+.columns-3-3 {
   width: 100%;
 }
 /*=====================3-column-grids=============*/
 /*=====================4-column-grids=============*/
-.columns-4-4 {
+.columns-4-1 {
   width: 25%;
 }
-.columns-4-3 {
+.columns-4-2 {
   width: 50%;
 }
-.columns-4-2 {
+.columns-4-3 {
   width: 75%;
 }
-.columns-4-1 {
+.columns-4-4 {
   width: 100%;
 }
 /*====================4-column-grids=============*/
 /*=====================6-column-grids=============*/
-.columns-6-6 {
+.columns-6-1 {
   width: 16.66666667%;
 }
-.columns-6-5 {
+.columns-6-2 {
   width: 33.33333333%;
 }
-.columns-6-4 {
+.columns-6-3 {
   width: 50%;
 }
-.columns-6-3 {
+.columns-6-4 {
   width: 66.66666667%;
 }
-.columns-6-2 {
+.columns-6-5 {
   width: 83.33333333%;
 }
-.columns-6-1 {
+.columns-6-6 {
   width: 100%;
 }
 /*====================6-column-grids=============*/
 /*=====================8-column-grids=============*/
-.columns-8-8 {
+.columns-8-1 {
   width: 12.5%;
 }
-.columns-8-7 {
+.columns-8-2 {
   width: 25%;
 }
-.columns-8-6 {
+.columns-8-3 {
   width: 37.5%;
 }
-.columns-8-5 {
+.columns-8-4 {
   width: 50%;
 }
-.columns-8-4 {
+.columns-8-5 {
   width: 62.5%;
 }
-.columns-8-3 {
+.columns-8-6 {
   width: 75%;
 }
-.columns-8-2 {
+.columns-8-7 {
   width: 87.5%;
 }
-.columns-8-1 {
+.columns-8-8 {
   width: 100%;
 }
 /*====================8-column-grids=============*/
 /*=====================12-column-grids=============*/
-.columns-12-12 {
+.columns-12-1 {
   width: 8.33333333%;
 }
-.columns-12-11 {
+.columns-12-2 {
   width: 16.66666667%;
 }
-.columns-12-10 {
+.columns-12-3 {
   width: 25%;
 }
-.columns-12-9 {
+.columns-12-4 {
   width: 33.33333333%;
 }
-.columns-12-8 {
+.columns-12-5 {
   width: 41.66666667%;
 }
-.columns-12-7 {
+.columns-12-6 {
   width: 50%;
 }
-.columns-12-6 {
+.columns-12-7 {
   width: 58.33333333%;
 }
-.columns-12-5 {
+.columns-12-8 {
   width: 66.66666667%;
 }
-.columns-12-4 {
+.columns-12-9 {
   width: 75%;
 }
-.columns-12-3 {
+.columns-12-10 {
   width: 83.33333333%;
 }
-.columns-12-2 {
+.columns-12-11 {
   width: 91.66666667%;
 }
-.columns-12-1 {
+.columns-12-12 {
   width: 100%;
 }
 /*====================12-column-grids=============*/
 /*=====================14-column-grids=============*/
-.columns-14-14 {
+.columns-14-1 {
   width: 7.14285714%;
 }
-.columns-14-13 {
+.columns-14-2 {
   width: 14.28571429%;
 }
-.columns-14-12 {
+.columns-14-3 {
   width: 21.42857143%;
 }
-.columns-14-11 {
+.columns-14-4 {
   width: 28.57142857%;
 }
-.columns-14-10 {
+.columns-14-5 {
   width: 35.71428571%;
 }
-.columns-14-9 {
+.columns-14-6 {
   width: 42.85714286%;
 }
-.columns-14-8 {
+.columns-14-7 {
   width: 50%;
 }
-.columns-14-7 {
+.columns-14-8 {
   width: 57.14285714%;
 }
-.columns-14-6 {
+.columns-14-9 {
   width: 64.28571429%;
 }
-.columns-14-5 {
+.columns-14-10 {
   width: 71.42857143%;
 }
-.columns-14-4 {
+.columns-14-11 {
   width: 78.57142857%;
 }
-.columns-14-3 {
+.columns-14-12 {
   width: 85.71428571%;
 }
-.columns-14-2 {
+.columns-14-13 {
   width: 92.85714286%;
 }
-.columns-14-1 {
+.columns-14-14 {
   width: 100%;
 }
 /*====================12-column-grids=============*/
 /*=====================16-column-grids=============*/
-.columns-16-16 {
+.columns-16-1 {
   width: 6.25%;
 }
-.columns-16-15 {
+.columns-16-2 {
   width: 12.5%;
 }
-.columns-16-14 {
+.columns-16-3 {
   width: 18.75%;
 }
-.columns-16-13 {
+.columns-16-4 {
   width: 25%;
 }
-.columns-16-12 {
+.columns-16-5 {
   width: 31.25%;
 }
-.columns-16-11 {
+.columns-16-6 {
   width: 37.5%;
 }
-.columns-16-10 {
+.columns-16-7 {
   width: 43.75%;
 }
-.columns-16-9 {
+.columns-16-8 {
   width: 50%;
 }
-.columns-16-8 {
+.columns-16-9 {
   width: 56.25%;
 }
-.columns-16-7 {
+.columns-16-10 {
   width: 62.5%;
 }
-.columns-16-6 {
+.columns-16-11 {
   width: 68.75%;
 }
-.columns-16-5 {
+.columns-16-12 {
   width: 75%;
 }
-.columns-16-4 {
+.columns-16-13 {
   width: 81.25%;
 }
-.columns-16-3 {
+.columns-16-14 {
   width: 87.5%;
 }
-.columns-16-2 {
+.columns-16-15 {
   width: 93.75%;
 }
-.columns-16-1 {
+.columns-16-16 {
   width: 100%;
 }
 /*====================12-column-grids=============*/

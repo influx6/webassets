@@ -10,15 +10,15 @@
   .stageColumns(@n,@m,@i+1+@j,@j)
 }
 
-.buildSingleColumns(@n,@m: 100%, @i:1,@x:0) when (@i =< @n){
+.buildSingleColumns(@n,@m: 100%, @i:1) when (@i =< @n){
 
-  @g: @n - @x;
+  // @g: @n - @x;
 
-  .columns-@{n}-@{g}{
+  .columns-@{n}-@{i}{
     width: @i * @m / @n
   }
 
-  .buildSingleColumns(@n,@m,@i+1,@x+1);
+  .buildSingleColumns(@n,@m,@i+1);
 }
 //=========================================
 
